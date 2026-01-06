@@ -6,7 +6,6 @@
     <title>Word Hunter</title>
 
     <style>
-        /* Fundo tilled (repete) — mete aqui a tua imagem */
         body{
             margin:0;
             height:100vh;
@@ -16,30 +15,28 @@
             background:#000 url("bg.png") repeat;
         }
 
-        /* moldura exterior (cinza) */
+        /* moldura */
         .frame-outer{
-            padding:5px;
-            background:#52004a;
+            border:5px solid #52004a;
             border-radius:6px;
         }
 
-
-
-        /* tamanho VISUAL do jogo */
+        /* área visível do jogo (ratio 16:9) */
         .game-wrapper{
-            width:960px;              /* 75% do original */
-            aspect-ratio:16/9;
+            width:60vw;              /* <<< ocupa parte do ecrã (auto‑responsivo) */
+            aspect-ratio:16 / 9;
             background:black;
-            overflow:hidden;
             position:relative;
+            overflow:hidden;
         }
 
-        /* iframe mantém 1280x720 mas é escalado */
+        /* iframe sempre 1280x720 — depois é escalado */
         .game-wrapper iframe{
+            position:absolute;
+            top:0; left:0;
             width:1280px;
             height:720px;
             border:none;
-            transform: scale(0.75);    /* muda para 0.6 / 0.8 se quiseres */
             transform-origin: top left;
         }
     </style>
@@ -48,12 +45,25 @@
 <body>
 
 <div class="frame-outer">
-    <div class="frame-inner">
-        <div class="game-wrapper">
-            <iframe src="Web1WordHunter.html"></iframe>
-        </div>
+    <div class="game-wrapper">
+        <iframe id="game" src="Web1WordHunter.html"></iframe>
     </div>
 </div>
+
+<script>
+    function resizeGame(){
+        const wrapper = document.querySelector(".game-wrapper");
+        const iframe  = document.getElementById("game");
+
+        // escala = largura visível / largura original
+        const scale = wrapper.clientWidth / 1280;
+        iframe.style.transform = `scale(${scale})`;
+    }
+
+    // corre ao abrir e ao redimensionar
+    resizeGame();
+    window.addEventListener("resize", resizeGame);
+</script>
 
 </body>
 </html>
