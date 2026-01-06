@@ -51,6 +51,8 @@
     </div>
 </div>
 
+<audio id="bg-music" src="music.mp3" loop></audio>
+
 <script>
     function resizeGame(){
         const wrapper = document.querySelector(".game-wrapper");
@@ -63,17 +65,29 @@
     resizeGame();
     window.addEventListener("resize", resizeGame);
 
-    // 🔥 garante que o teclado funciona dentro do jogo
+
     const iframe = document.getElementById("game");
     iframe.setAttribute("tabindex", "0");
 
     iframe.addEventListener("load", () => {
         iframe.contentWindow.focus();
+        playMusic()
     });
 
     iframe.addEventListener("click", () => {
         iframe.contentWindow.focus();
+        playMusic()
     });
+
+    function playMusic(){
+        const music = document.getElementById("bg-music");
+        if(music.paused){
+            music.volume = 0.10; 
+            music.play().catch(e => {
+                console.warn("Não foi possível tocar a música automaticamente:", e);
+            });
+        }
+    }
 </script>
 
 </body>
