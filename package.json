@@ -1,0 +1,17 @@
+{
+  "name": "web1worldhunter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Web1WordHunter.js",
+  "dependencies": {
+    "pg": "^8.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuelpinto04/web1worldhunter.git"
+  },
+  "private": true
+}
