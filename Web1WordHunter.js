@@ -3,13 +3,13 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Web1WordHunter_atlas_1", frames: [[859,246,154,62],[1827,281,154,62],[859,310,154,62],[213,224,134,76],[395,415,135,55],[1827,217,169,62],[1998,217,50,50],[1007,729,50,50],[1059,729,50,50],[1463,737,50,50],[506,751,50,50],[1983,281,60,60],[1780,690,60,60],[1842,690,60,60],[1904,690,60,60],[1966,690,60,60],[616,692,60,60],[678,692,60,60],[658,754,48,48],[708,759,48,48],[758,759,48,48],[311,326,97,87],[410,326,97,87],[509,326,97,87],[608,326,97,87],[98,333,97,87],[1113,341,97,87],[1212,341,97,87],[1311,341,97,87],[1410,341,97,87],[1509,341,97,87],[1608,341,97,87],[1707,341,97,87],[1806,345,97,87],[1905,345,97,87],[707,348,97,87],[806,374,97,87],[905,374,97,87],[1004,374,97,87],[197,403,97,87],[296,415,97,87],[117,761,46,46],[379,762,46,46],[427,762,46,46],[1549,766,46,46],[1597,770,46,46],[1645,770,46,46],[1693,770,46,46],[1006,781,46,46],[1054,781,46,46],[51,782,46,46],[0,785,46,46],[165,786,46,46],[213,786,46,46],[261,787,46,46],[1145,787,46,46],[1193,787,46,46],[1241,787,46,46],[1289,787,46,46],[1337,787,46,46],[1385,787,46,46],[956,692,49,59],[353,699,49,59],[141,700,49,59],[404,701,49,59],[455,701,49,59],[1554,705,49,59],[1605,709,49,59],[1656,709,49,59],[1707,709,49,59],[66,721,49,59],[0,724,49,59],[192,725,49,59],[243,725,49,59],[294,726,49,59],[1157,726,49,59],[1208,726,49,59],[1259,726,49,59],[1310,726,49,59],[1361,726,49,59],[1412,726,49,59],[1780,624,64,64],[1846,624,64,64],[1912,624,64,64],[1978,624,64,64],[629,626,64,64],[695,626,64,64],[761,626,64,64],[827,626,64,64],[893,626,64,64],[959,626,64,64],[167,634,64,64],[418,635,64,64],[484,635,64,64],[75,655,64,64],[0,658,64,64],[233,659,64,64],[1158,660,64,64],[1224,660,64,64],[1290,660,64,64],[1356,660,64,64],[1422,660,64,64],[1025,663,64,64],[1091,663,64,64],[1488,671,64,64],[550,685,64,64],[92,578,73,75],[0,581,73,75],[280,582,73,75],[1083,586,73,75],[558,751,48,50],[1758,752,48,50],[1808,752,48,50],[1858,752,48,50],[1908,752,48,50],[1958,752,48,50],[956,753,48,50],[608,754,48,50],[299,659,52,65],[740,692,52,65],[794,692,52,65],[848,692,52,65],[902,692,52,65],[1528,586,61,83],[566,600,61,83],[355,614,61,83],[1591,620,61,83],[1654,624,61,83],[1717,624,61,83],[2014,112,32,68],[2004,343,32,68],[1111,729,32,68],[1515,737,32,68],[2008,752,32,68],[808,759,32,68],[842,759,32,68],[876,759,32,68],[910,759,32,68],[345,760,32,68],[475,762,27,62],[309,787,27,62],[579,515,82,83],[663,541,82,83],[747,541,82,83],[831,541,82,83],[915,541,82,83],[999,541,82,83],[0,222,100,100],[349,224,100,100],[451,224,100,100],[553,224,100,100],[655,224,100,100],[757,246,100,100],[0,0,130,105],[132,0,130,105],[1965,0,62,110],[1636,508,62,110],[1700,512,62,110],[1764,512,62,110],[1828,512,62,110],[1892,512,62,110],[1956,512,62,110],[115,107,120,100],[1160,115,120,100],[1282,115,120,100],[1404,115,120,100],[1526,115,120,100],[1648,115,120,100],[1770,115,120,100],[1892,115,120,100],[237,122,120,100],[359,122,120,100],[481,122,120,100],[603,122,120,100],[725,122,120,100],[847,122,96,122],[945,122,96,122],[1043,122,96,122],[115,209,96,122],[1141,217,96,122],[1239,217,96,122],[1337,217,96,122],[1435,217,96,122],[1533,217,96,122],[1631,217,96,122],[1729,217,96,122],[264,0,110,120],[376,0,110,120],[488,0,110,120],[600,0,110,120],[712,0,110,120],[824,0,110,120],[936,0,110,120],[1048,0,110,120],[1015,246,96,99],[213,302,96,99],[0,324,96,99],[532,415,90,76],[98,422,90,76],[0,425,90,76],[1103,430,90,76],[1195,430,90,76],[1287,430,90,76],[1379,430,90,76],[1471,430,90,76],[1563,430,90,76],[1655,430,90,76],[1747,434,90,76],[1839,434,90,76],[1931,434,90,76],[624,437,90,76],[716,463,90,76],[808,463,90,76],[900,463,90,76],[992,463,90,76],[395,472,90,76],[190,492,90,76],[487,493,90,76],[92,500,90,76],[0,503,90,76],[282,504,90,76],[1084,508,90,76],[1176,508,90,76],[1268,508,90,76],[1360,508,90,76],[1452,508,90,76],[1544,508,90,76],[374,550,94,62],[184,570,94,62],[470,571,94,62],[1158,586,72,72],[1232,586,72,72],[1306,586,72,72],[1380,586,72,72],[1454,586,72,72],[1160,0,113,113],[1275,0,113,113],[1390,0,113,113],[1505,0,113,113],[1620,0,113,113],[1735,0,113,113],[1850,0,113,113],[0,107,113,113],[2014,182,24,24],[1113,246,24,24]]},
+		{name:"Web1WordHunter_atlas_1", frames: [[0,0,1626,1244]]},
 		{name:"Web1WordHunter_atlas_2", frames: [[0,0,1490,1304]]},
-		{name:"Web1WordHunter_atlas_3", frames: [[1630,1767,358,41],[832,0,540,113],[1630,1810,358,41],[1374,0,540,113],[1630,1853,358,41],[832,115,1006,45],[548,1968,188,76],[770,300,385,74],[322,0,508,132],[1088,162,299,136],[770,162,316,136],[0,1938,217,100],[1157,300,245,111],[1389,162,361,89],[1520,1531,134,116],[1358,1735,134,116],[1656,1531,134,116],[1792,1531,134,116],[1358,1853,134,116],[1520,1649,134,116],[1656,1649,134,116],[1792,1649,134,116],[1494,1767,134,116],[1916,0,130,105],[1494,1885,130,105],[1626,1896,130,105],[1758,1896,130,105],[1890,1896,130,105],[1909,421,130,105],[672,646,150,150],[824,646,150,150],[976,646,150,150],[603,798,150,150],[603,950,150,150],[755,798,150,150],[755,950,150,150],[907,798,150,150],[907,950,150,150],[603,1102,150,150],[755,1102,150,150],[907,1102,150,150],[1076,413,150,150],[1228,413,150,150],[1128,565,150,150],[1280,565,150,150],[1128,717,150,150],[1280,717,150,150],[1059,869,150,150],[1059,1021,147,120],[1211,869,147,120],[1059,1143,147,120],[1360,869,147,120],[379,1194,147,120],[1211,991,147,120],[1360,991,147,120],[1208,1113,147,120],[1357,1113,147,120],[1208,1235,147,120],[1357,1235,147,120],[1404,388,147,120],[1553,388,147,120],[1702,388,147,120],[1432,510,147,120],[224,1396,200,133],[224,1531,200,133],[224,1666,200,133],[224,1801,200,133],[1404,253,200,133],[1606,253,200,133],[672,376,200,133],[672,511,200,133],[874,376,200,133],[874,511,200,133],[1432,735,160,100],[1598,613,160,100],[1747,510,160,100],[1760,612,160,100],[1598,715,160,100],[1760,714,160,100],[1594,817,160,100],[1509,919,160,100],[1509,1021,160,100],[1506,1123,160,100],[1506,1225,160,100],[1506,1327,160,100],[1671,919,160,100],[1671,1021,160,100],[1668,1123,160,100],[1668,1225,160,100],[1668,1327,160,100],[1756,817,160,100],[1833,919,160,100],[1833,1021,160,100],[1830,1123,160,100],[1830,1225,160,100],[1830,1327,160,100],[224,1936,160,100],[528,1254,160,100],[690,1254,160,100],[852,1254,160,100],[1014,1265,160,100],[386,1936,160,100],[548,1356,160,100],[710,1356,160,100],[548,1458,160,100],[710,1458,160,100],[548,1560,160,100],[710,1560,160,100],[548,1662,160,100],[710,1662,160,100],[548,1764,160,100],[710,1764,160,100],[548,1866,160,100],[710,1866,160,100],[1176,1357,160,100],[1338,1357,160,100],[1500,1429,160,100],[1662,1429,160,100],[1824,1429,160,100],[1840,115,160,100],[1808,217,160,100],[1851,319,160,100],[872,1367,160,100],[872,1469,160,100],[872,1571,160,100],[872,1673,160,100],[872,1775,160,100],[872,1877,160,100],[1034,1459,160,100],[1196,1459,160,100],[1034,1561,160,100],[1034,1663,160,100],[1196,1561,160,100],[1034,1765,160,100],[1196,1663,160,100],[1034,1867,160,100],[1196,1765,160,100],[1196,1867,160,100],[1358,1531,160,100],[1358,1633,160,100],[1581,510,164,101],[1432,632,164,101],[0,242,222,210],[0,454,222,210],[0,666,222,210],[0,878,222,210],[0,1090,222,210],[0,1302,222,210],[0,1514,222,210],[0,1726,222,210],[322,134,222,210],[546,134,222,210],[224,346,222,210],[224,558,222,210],[448,346,222,210],[224,770,222,210],[448,558,222,210],[224,982,222,210],[0,0,320,240],[448,770,153,200],[224,1194,153,200],[448,972,153,200]]},
-		{name:"Web1WordHunter_atlas_4", frames: [[512,1254,918,156],[1432,1142,540,169],[1199,1412,634,136],[1331,1004,673,136],[512,1004,817,248],[0,0,510,500],[512,0,510,500],[1024,0,510,500],[1536,0,510,500],[0,502,510,500],[0,1004,510,500],[0,1506,510,500],[512,502,510,500],[1024,502,510,500],[1536,502,510,500],[512,1412,685,127],[512,1550,320,240],[512,1792,320,240],[834,1541,320,240],[834,1783,320,240],[1156,1550,320,240],[1156,1792,320,240],[1478,1550,320,240],[1478,1792,320,240]]},
-		{name:"Web1WordHunter_atlas_5", frames: [[0,0,510,500],[512,0,510,500],[1024,0,510,500],[1536,0,510,500],[0,502,510,500],[0,1004,510,500],[0,1506,510,500],[512,502,510,500],[1024,502,510,500],[1536,502,510,500],[512,1004,510,500],[512,1506,510,500],[1024,1004,510,500],[1536,1004,510,500],[1024,1506,510,500],[1536,1506,510,500]]},
-		{name:"Web1WordHunter_atlas_6", frames: [[0,923,1556,184],[0,0,1953,921],[0,1109,510,500],[512,1109,510,500],[1024,1109,510,500],[1536,1109,510,500]]},
-		{name:"Web1WordHunter_atlas_7", frames: [[0,0,1626,1244]]}
+		{name:"Web1WordHunter_atlas_3", frames: [[0,923,1556,184],[0,0,1953,921],[0,1109,510,500],[512,1109,510,500],[1024,1109,510,500],[1536,1109,510,500]]},
+		{name:"Web1WordHunter_atlas_4", frames: [[0,0,510,500],[512,0,510,500],[1024,0,510,500],[1536,0,510,500],[0,502,510,500],[0,1004,510,500],[0,1506,510,500],[512,502,510,500],[1024,502,510,500],[1536,502,510,500],[512,1004,510,500],[512,1506,510,500],[1024,1004,510,500],[1536,1004,510,500],[1024,1506,510,500],[1536,1506,510,500]]},
+		{name:"Web1WordHunter_atlas_5", frames: [[512,1254,918,156],[1432,1142,540,169],[1199,1412,634,136],[1331,1004,673,136],[512,1004,817,248],[0,0,510,500],[512,0,510,500],[1024,0,510,500],[1536,0,510,500],[0,502,510,500],[0,1004,510,500],[0,1506,510,500],[512,502,510,500],[1024,502,510,500],[1536,502,510,500],[512,1412,685,127],[512,1550,320,240],[512,1792,320,240],[834,1541,320,240],[834,1783,320,240],[1156,1550,320,240],[1156,1792,320,240],[1478,1550,320,240],[1478,1792,320,240]]},
+		{name:"Web1WordHunter_atlas_6", frames: [[1630,1767,358,41],[832,0,540,113],[1630,1810,358,41],[1374,0,540,113],[1630,1853,358,41],[832,115,1006,45],[548,1968,188,76],[770,300,385,74],[322,0,508,132],[1088,162,299,136],[770,162,316,136],[0,1938,217,100],[1157,300,245,111],[1389,162,361,89],[1520,1531,134,116],[1358,1735,134,116],[1656,1531,134,116],[1792,1531,134,116],[1358,1853,134,116],[1520,1649,134,116],[1656,1649,134,116],[1792,1649,134,116],[1494,1767,134,116],[1916,0,130,105],[1494,1885,130,105],[1626,1896,130,105],[1758,1896,130,105],[1890,1896,130,105],[1909,421,130,105],[672,646,150,150],[824,646,150,150],[976,646,150,150],[603,798,150,150],[603,950,150,150],[755,798,150,150],[755,950,150,150],[907,798,150,150],[907,950,150,150],[603,1102,150,150],[755,1102,150,150],[907,1102,150,150],[1076,413,150,150],[1228,413,150,150],[1128,565,150,150],[1280,565,150,150],[1128,717,150,150],[1280,717,150,150],[1059,869,150,150],[1059,1021,147,120],[1211,869,147,120],[1059,1143,147,120],[1360,869,147,120],[379,1194,147,120],[1211,991,147,120],[1360,991,147,120],[1208,1113,147,120],[1357,1113,147,120],[1208,1235,147,120],[1357,1235,147,120],[1404,388,147,120],[1553,388,147,120],[1702,388,147,120],[1432,510,147,120],[224,1396,200,133],[224,1531,200,133],[224,1666,200,133],[224,1801,200,133],[1404,253,200,133],[1606,253,200,133],[672,376,200,133],[672,511,200,133],[874,376,200,133],[874,511,200,133],[1432,735,160,100],[1598,613,160,100],[1747,510,160,100],[1760,612,160,100],[1598,715,160,100],[1760,714,160,100],[1594,817,160,100],[1509,919,160,100],[1509,1021,160,100],[1506,1123,160,100],[1506,1225,160,100],[1506,1327,160,100],[1671,919,160,100],[1671,1021,160,100],[1668,1123,160,100],[1668,1225,160,100],[1668,1327,160,100],[1756,817,160,100],[1833,919,160,100],[1833,1021,160,100],[1830,1123,160,100],[1830,1225,160,100],[1830,1327,160,100],[224,1936,160,100],[528,1254,160,100],[690,1254,160,100],[852,1254,160,100],[1014,1265,160,100],[386,1936,160,100],[548,1356,160,100],[710,1356,160,100],[548,1458,160,100],[710,1458,160,100],[548,1560,160,100],[710,1560,160,100],[548,1662,160,100],[710,1662,160,100],[548,1764,160,100],[710,1764,160,100],[548,1866,160,100],[710,1866,160,100],[1176,1357,160,100],[1338,1357,160,100],[1500,1429,160,100],[1662,1429,160,100],[1824,1429,160,100],[1840,115,160,100],[1808,217,160,100],[1851,319,160,100],[872,1367,160,100],[872,1469,160,100],[872,1571,160,100],[872,1673,160,100],[872,1775,160,100],[872,1877,160,100],[1034,1459,160,100],[1196,1459,160,100],[1034,1561,160,100],[1034,1663,160,100],[1196,1561,160,100],[1034,1765,160,100],[1196,1663,160,100],[1034,1867,160,100],[1196,1765,160,100],[1196,1867,160,100],[1358,1531,160,100],[1358,1633,160,100],[1581,510,164,101],[1432,632,164,101],[0,242,222,210],[0,454,222,210],[0,666,222,210],[0,878,222,210],[0,1090,222,210],[0,1302,222,210],[0,1514,222,210],[0,1726,222,210],[322,134,222,210],[546,134,222,210],[224,346,222,210],[224,558,222,210],[448,346,222,210],[224,770,222,210],[448,558,222,210],[224,982,222,210],[0,0,320,240],[448,770,153,200],[224,1194,153,200],[448,972,153,200]]},
+		{name:"Web1WordHunter_atlas_7", frames: [[859,246,154,62],[1827,281,154,62],[859,310,154,62],[213,224,134,76],[395,415,135,55],[1827,217,169,62],[1998,217,50,50],[1007,729,50,50],[1059,729,50,50],[1463,737,50,50],[506,751,50,50],[1983,281,60,60],[1780,690,60,60],[1842,690,60,60],[1904,690,60,60],[1966,690,60,60],[616,692,60,60],[678,692,60,60],[658,754,48,48],[708,759,48,48],[758,759,48,48],[311,326,97,87],[410,326,97,87],[509,326,97,87],[608,326,97,87],[98,333,97,87],[1113,341,97,87],[1212,341,97,87],[1311,341,97,87],[1410,341,97,87],[1509,341,97,87],[1608,341,97,87],[1707,341,97,87],[1806,345,97,87],[1905,345,97,87],[707,348,97,87],[806,374,97,87],[905,374,97,87],[1004,374,97,87],[197,403,97,87],[296,415,97,87],[117,761,46,46],[379,762,46,46],[427,762,46,46],[1549,766,46,46],[1597,770,46,46],[1645,770,46,46],[1693,770,46,46],[1006,781,46,46],[1054,781,46,46],[51,782,46,46],[0,785,46,46],[165,786,46,46],[213,786,46,46],[261,787,46,46],[1145,787,46,46],[1193,787,46,46],[1241,787,46,46],[1289,787,46,46],[1337,787,46,46],[1385,787,46,46],[956,692,49,59],[353,699,49,59],[141,700,49,59],[404,701,49,59],[455,701,49,59],[1554,705,49,59],[1605,709,49,59],[1656,709,49,59],[1707,709,49,59],[66,721,49,59],[0,724,49,59],[192,725,49,59],[243,725,49,59],[294,726,49,59],[1157,726,49,59],[1208,726,49,59],[1259,726,49,59],[1310,726,49,59],[1361,726,49,59],[1412,726,49,59],[1780,624,64,64],[1846,624,64,64],[1912,624,64,64],[1978,624,64,64],[629,626,64,64],[695,626,64,64],[761,626,64,64],[827,626,64,64],[893,626,64,64],[959,626,64,64],[167,634,64,64],[418,635,64,64],[484,635,64,64],[75,655,64,64],[0,658,64,64],[233,659,64,64],[1158,660,64,64],[1224,660,64,64],[1290,660,64,64],[1356,660,64,64],[1422,660,64,64],[1025,663,64,64],[1091,663,64,64],[1488,671,64,64],[550,685,64,64],[92,578,73,75],[0,581,73,75],[280,582,73,75],[1083,586,73,75],[558,751,48,50],[1758,752,48,50],[1808,752,48,50],[1858,752,48,50],[1908,752,48,50],[1958,752,48,50],[956,753,48,50],[608,754,48,50],[299,659,52,65],[740,692,52,65],[794,692,52,65],[848,692,52,65],[902,692,52,65],[1528,586,61,83],[566,600,61,83],[355,614,61,83],[1591,620,61,83],[1654,624,61,83],[1717,624,61,83],[2014,112,32,68],[2004,343,32,68],[1111,729,32,68],[1515,737,32,68],[2008,752,32,68],[808,759,32,68],[842,759,32,68],[876,759,32,68],[910,759,32,68],[345,760,32,68],[475,762,27,62],[309,787,27,62],[579,515,82,83],[663,541,82,83],[747,541,82,83],[831,541,82,83],[915,541,82,83],[999,541,82,83],[0,222,100,100],[349,224,100,100],[451,224,100,100],[553,224,100,100],[655,224,100,100],[757,246,100,100],[0,0,130,105],[132,0,130,105],[1965,0,62,110],[1636,508,62,110],[1700,512,62,110],[1764,512,62,110],[1828,512,62,110],[1892,512,62,110],[1956,512,62,110],[115,107,120,100],[1160,115,120,100],[1282,115,120,100],[1404,115,120,100],[1526,115,120,100],[1648,115,120,100],[1770,115,120,100],[1892,115,120,100],[237,122,120,100],[359,122,120,100],[481,122,120,100],[603,122,120,100],[725,122,120,100],[847,122,96,122],[945,122,96,122],[1043,122,96,122],[115,209,96,122],[1141,217,96,122],[1239,217,96,122],[1337,217,96,122],[1435,217,96,122],[1533,217,96,122],[1631,217,96,122],[1729,217,96,122],[264,0,110,120],[376,0,110,120],[488,0,110,120],[600,0,110,120],[712,0,110,120],[824,0,110,120],[936,0,110,120],[1048,0,110,120],[1015,246,96,99],[213,302,96,99],[0,324,96,99],[532,415,90,76],[98,422,90,76],[0,425,90,76],[1103,430,90,76],[1195,430,90,76],[1287,430,90,76],[1379,430,90,76],[1471,430,90,76],[1563,430,90,76],[1655,430,90,76],[1747,434,90,76],[1839,434,90,76],[1931,434,90,76],[624,437,90,76],[716,463,90,76],[808,463,90,76],[900,463,90,76],[992,463,90,76],[395,472,90,76],[190,492,90,76],[487,493,90,76],[92,500,90,76],[0,503,90,76],[282,504,90,76],[1084,508,90,76],[1176,508,90,76],[1268,508,90,76],[1360,508,90,76],[1452,508,90,76],[1544,508,90,76],[374,550,94,62],[184,570,94,62],[470,571,94,62],[1158,586,72,72],[1232,586,72,72],[1306,586,72,72],[1380,586,72,72],[1454,586,72,72],[1160,0,113,113],[1275,0,113,113],[1390,0,113,113],[1505,0,113,113],[1620,0,113,113],[1735,0,113,113],[1850,0,113,113],[0,107,113,113],[2014,182,24,24],[1113,246,24,24]]}
 ];
 
 
@@ -34,14 +34,14 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_39 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_37 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -54,21 +54,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,3651,2580);
 
 
 (lib.CachedBmp_35 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_33 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_31 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
@@ -81,7 +81,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,3651,2580);
 
 
 (lib.CachedBmp_29 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -95,35 +95,35 @@ p.nominalBounds = new cjs.Rectangle(0,0,3651,2580);
 
 
 (lib.CachedBmp_27 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_25 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_23 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_38 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_21 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -136,3101 +136,3101 @@ p.nominalBounds = new cjs.Rectangle(0,0,3651,2580);
 
 
 (lib.CachedBmp_19 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_17 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_16 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_15 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_18 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_13 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_11 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_12 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_34 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_6"]);
+	this.initialize(ss["Web1WordHunter_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_6"]);
+	this.initialize(ss["Web1WordHunter_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._10_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._10_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._10_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._10_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._10_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._11_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._11_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._11_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._11_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._11_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._11_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._11_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._12_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._12_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._12_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_10 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_11 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_12 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_13 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_14 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_15 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_16 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_17 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_18 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_19 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._13_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_10 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_11 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_12 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_13 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_14 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(47);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_15 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_16 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_17 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_18 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_19 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(52);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(53);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(54);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(55);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(56);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(57);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(58);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(59);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._14_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(60);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_6"]);
+	this.initialize(ss["Web1WordHunter_atlas_3"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_6"]);
+	this.initialize(ss["Web1WordHunter_atlas_3"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_10 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_6"]);
+	this.initialize(ss["Web1WordHunter_atlas_3"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_11 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_6"]);
+	this.initialize(ss["Web1WordHunter_atlas_3"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_12 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_13 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_14 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_15 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_16 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_17 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_18 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_19 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_20 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_21 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_22 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_23 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_24 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_25 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_26 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_5"]);
+	this.initialize(ss["Web1WordHunter_atlas_4"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_27 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_28 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_29 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._15_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(61);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(62);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_10 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(63);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_11 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(64);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_12 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(65);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_13 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(66);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_14 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(67);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_15 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(68);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_16 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(69);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_17 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(70);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_18 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(71);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_19 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(72);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(73);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(74);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(75);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(76);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(77);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(78);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(79);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._2_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(80);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(81);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(82);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_10 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(83);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_11 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(84);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_12 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(85);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_13 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(86);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_14 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(87);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_15 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(88);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_16 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(89);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_17 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(90);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_18 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(91);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_19 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(92);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(93);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_20 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(94);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_21 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(95);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_22 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(96);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_23 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(97);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_24 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(98);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(99);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(100);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(101);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(102);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(103);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(104);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._3_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(105);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._4_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(106);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._4_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(107);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._4_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(108);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._4_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(109);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._5_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(110);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._5_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(111);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._5_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(112);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._5_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(113);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._5_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(114);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._5_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(115);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._5_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(116);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._5_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(117);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._6_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(118);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._6_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(119);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._6_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(120);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._6_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(121);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._6_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(122);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._7_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(123);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._7_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(124);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._7_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(125);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._7_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(126);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._7_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(127);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._7_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(128);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._8_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(129);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._8_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(130);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._8_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(131);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._8_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(132);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._8_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(133);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._8_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(134);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._8_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(135);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._8_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(136);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._8_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(137);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._8_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(138);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._9_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(139);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._9_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(140);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.artnartist_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(141);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.artnartist_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(142);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.artnartist_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(143);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.artnartist_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(144);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.artnartist_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(145);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.artnartist_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(146);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bolaback_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(147);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bolaback_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(148);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bolaback_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(149);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bolaback_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(150);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bolaback_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(151);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bolaback_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(152);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.book_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.book_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.book_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.book_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.book_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.book_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.book_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(153);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.book_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(154);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_10 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_11 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_12 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_13 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_14 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_15 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_16 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_17 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_18 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bubbles2_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(47);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_10 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_11 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_12 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(52);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_13 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(53);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_14 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(54);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(55);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(56);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(57);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(58);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(59);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(60);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(61);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.butterfly_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(62);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.conta_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.dragon_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(63);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.dragon_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(64);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.dragon_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(65);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.dragon_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(66);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.dragon_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(67);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.dragon_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(68);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.dragon_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(69);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.dragon_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(70);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.dragon_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(71);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.dragon_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(72);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.egg_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(155);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.egg_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(156);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.egg_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(157);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.egg_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(158);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.egg_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(159);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.egg_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(160);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.egg_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(161);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(73);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(74);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_10 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(75);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_11 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(76);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_12 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(77);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_13 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(78);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_14 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(79);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_15 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(80);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_16 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(81);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_17 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(82);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_18 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(83);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_19 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(84);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(85);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_20 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(86);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_21 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(87);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_22 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(88);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_23 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(89);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_24 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(90);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_25 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(91);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_26 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(92);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_27 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(93);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_28 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(94);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_29 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(95);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(96);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_30 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(97);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_31 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(98);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_32 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(99);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_33 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(100);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_34 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(101);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_35 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(102);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_36 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(103);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_37 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(104);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_38 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(105);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_39 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(106);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(107);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_40 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(108);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_41 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(109);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_42 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(110);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_43 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(111);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_44 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(112);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_45 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(113);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_46 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(114);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_47 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(115);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_48 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(116);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_49 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(117);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(118);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_50 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(119);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_51 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(120);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_52 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(121);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_53 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(122);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_54 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(123);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_55 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(124);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_56 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(125);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_57 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(126);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_58 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(127);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_59 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(128);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(129);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_60 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(130);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_61 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(131);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_62 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(132);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_63 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(133);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_64 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(134);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_65 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(135);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_66 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(136);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(137);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(138);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fish_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(139);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jedi_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(162);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jedi_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(163);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jedi_10 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(164);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jedi_11 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(165);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jedi_12 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(166);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jedi_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(167);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jedi_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(168);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jedi_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(169);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jedi_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(170);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jedi_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(171);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jedi_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(172);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jedi_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(173);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jedi_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(174);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.kiwi_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(140);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.kiwi_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(141);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.liar_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(175);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.liar_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(176);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.liar_10 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(177);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.liar_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(178);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.liar_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(179);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.liar_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(180);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.liar_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(181);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.liar_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(182);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.liar_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(183);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.liar_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(184);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.liar_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(185);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(142);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(143);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_10 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(144);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_11 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(145);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_12 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(146);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_13 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(147);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_14 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(148);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_15 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(149);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(150);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(151);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(152);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(153);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(154);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(155);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(156);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mona_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(157);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.monkey_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(186);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.monkey_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(187);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.monkey_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(188);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.monkey_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(189);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.monkey_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(190);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.monkey_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(191);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.monkey_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(192);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.monkey_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(193);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.oz_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(194);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.oz_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(195);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.oz_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(196);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(197);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(198);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_10 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(199);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_11 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(200);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_12 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(201);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_13 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(202);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_14 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(203);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_15 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(204);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_16 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(205);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_17 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(206);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_18 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(207);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_19 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(208);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(209);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_20 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(210);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_21 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(211);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_22 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(212);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_23 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(213);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_24 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(214);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_25 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(215);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_26 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(216);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_27 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(217);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_28 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(218);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_29 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(219);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(220);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(221);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(222);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(223);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(224);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(225);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.penguin_9 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(226);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.planetheart_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(227);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.planetheart_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(228);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.planetheart_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(229);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.purple_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.purple_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.purple_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.purple_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.purple_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.purple_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.purple_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.purple_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_4"]);
+	this.initialize(ss["Web1WordHunter_atlas_5"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.purple_8 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(158);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.RainbowBallT_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(230);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.RainbowBallT_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(231);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.RainbowBallT_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(232);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.RainbowBallT_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(233);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.RainbowBallT_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(234);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.starsback_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(235);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.starsback_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(236);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.starsback_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(237);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.starsback_3 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(238);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.starsback_4 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(239);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.starsback_5 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(240);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.starsback_6 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(241);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.starsback_7 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(242);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.warning_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(243);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.warning_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_1"]);
+	this.initialize(ss["Web1WordHunter_atlas_7"]);
 	this.gotoAndStop(244);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Web10WordHunterWeb10Web10WordHunterWeb10Wor = function() {
-	this.initialize(ss["Web1WordHunter_atlas_7"]);
+	this.initialize(ss["Web1WordHunter_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.wizard_0 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(159);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.wizard_1 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(160);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.wizard_2 = function() {
-	this.initialize(ss["Web1WordHunter_atlas_3"]);
+	this.initialize(ss["Web1WordHunter_atlas_6"]);
 	this.gotoAndStop(161);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -7857,23 +7857,23 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_36.png?1767715152248", id:"CachedBmp_36"},
-		{src:"images/CachedBmp_30.png?1767715152248", id:"CachedBmp_30"},
-		{src:"images/CachedBmp_20.png?1767715152248", id:"CachedBmp_20"},
-		{src:"images/Web1WordHunter_atlas_1.png?1767715151859", id:"Web1WordHunter_atlas_1"},
-		{src:"images/Web1WordHunter_atlas_2.png?1767715151859", id:"Web1WordHunter_atlas_2"},
-		{src:"images/Web1WordHunter_atlas_3.png?1767715151863", id:"Web1WordHunter_atlas_3"},
-		{src:"images/Web1WordHunter_atlas_4.png?1767715151864", id:"Web1WordHunter_atlas_4"},
-		{src:"images/Web1WordHunter_atlas_5.png?1767715151864", id:"Web1WordHunter_atlas_5"},
-		{src:"images/Web1WordHunter_atlas_6.png?1767715151865", id:"Web1WordHunter_atlas_6"},
-		{src:"images/Web1WordHunter_atlas_7.png?1767715151865", id:"Web1WordHunter_atlas_7"},
-		{src:"sounds/DialUpMP3.mp3?1767715152249", id:"DialUpMP3"},
-		{src:"sounds/FrogMP3.mp3?1767715152249", id:"FrogMP3"},
-		{src:"sounds/JingleBellMP3.mp3?1767715152249", id:"JingleBellMP3"},
-		{src:"sounds/LaughMP3.mp3?1767715152249", id:"LaughMP3"},
-		{src:"sounds/LibraryMP3.mp3?1767715152249", id:"LibraryMP3"},
-		{src:"sounds/OwlMP3.mp3?1767715152249", id:"OwlMP3"},
-		{src:"sounds/SitMP3.mp3?1767715152249", id:"SitMP3"}
+		{src:"images/CachedBmp_36.png?1767730456380", id:"CachedBmp_36"},
+		{src:"images/CachedBmp_30.png?1767730456380", id:"CachedBmp_30"},
+		{src:"images/CachedBmp_20.png?1767730456380", id:"CachedBmp_20"},
+		{src:"images/Web1WordHunter_atlas_1.png?1767730455830", id:"Web1WordHunter_atlas_1"},
+		{src:"images/Web1WordHunter_atlas_2.png?1767730455830", id:"Web1WordHunter_atlas_2"},
+		{src:"images/Web1WordHunter_atlas_3.png?1767730455831", id:"Web1WordHunter_atlas_3"},
+		{src:"images/Web1WordHunter_atlas_4.png?1767730455832", id:"Web1WordHunter_atlas_4"},
+		{src:"images/Web1WordHunter_atlas_5.png?1767730455833", id:"Web1WordHunter_atlas_5"},
+		{src:"images/Web1WordHunter_atlas_6.png?1767730455837", id:"Web1WordHunter_atlas_6"},
+		{src:"images/Web1WordHunter_atlas_7.png?1767730455843", id:"Web1WordHunter_atlas_7"},
+		{src:"sounds/DialUpMP3.mp3?1767730456380", id:"DialUpMP3"},
+		{src:"sounds/FrogMP3.mp3?1767730456380", id:"FrogMP3"},
+		{src:"sounds/JingleBellMP3.mp3?1767730456380", id:"JingleBellMP3"},
+		{src:"sounds/LaughMP3.mp3?1767730456380", id:"LaughMP3"},
+		{src:"sounds/LibraryMP3.mp3?1767730456380", id:"LibraryMP3"},
+		{src:"sounds/OwlMP3.mp3?1767730456380", id:"OwlMP3"},
+		{src:"sounds/SitMP3.mp3?1767730456380", id:"SitMP3"}
 	],
 	preloads: []
 };

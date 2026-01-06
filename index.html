@@ -19,21 +19,23 @@
         .frame-outer{
             padding:5px;
             background:#52004a;
-            border-radius:6px; }
+            border-radius:6px;
+        }
 
         /* área visível do jogo (ratio 16:9) */
         .game-wrapper{
-            width:60vw;              /* <<< ocupa parte do ecrã (auto‑responsivo) */
+            width:60vw;
             aspect-ratio:16 / 9;
             background:black;
             position:relative;
             overflow:hidden;
         }
 
-        /* iframe sempre 1280x720 — depois é escalado */
+        /* iframe original 1280x720 — será escalado */
         .game-wrapper iframe{
             position:absolute;
-            top:0; left:0;
+            top:0;
+            left:0;
             width:1280px;
             height:720px;
             border:none;
@@ -43,7 +45,6 @@
 </head>
 
 <body>
-
 <div class="frame-outer">
     <div class="game-wrapper">
         <iframe id="game" src="Web1WordHunter.html"></iframe>
@@ -55,14 +56,24 @@
         const wrapper = document.querySelector(".game-wrapper");
         const iframe  = document.getElementById("game");
 
-        // escala = largura visível / largura original
         const scale = wrapper.clientWidth / 1280;
         iframe.style.transform = `scale(${scale})`;
     }
 
-    // corre ao abrir e ao redimensionar
     resizeGame();
     window.addEventListener("resize", resizeGame);
+
+    // 🔥 garante que o teclado funciona dentro do jogo
+    const iframe = document.getElementById("game");
+    iframe.setAttribute("tabindex", "0");
+
+    iframe.addEventListener("load", () => {
+        iframe.contentWindow.focus();
+    });
+
+    iframe.addEventListener("click", () => {
+        iframe.contentWindow.focus();
+    });
 </script>
 
 </body>
