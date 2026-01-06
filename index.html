@@ -6,46 +6,53 @@
     <title>Word Hunter</title>
 
     <style>
+        /* Fundo tilled (repete) — mete aqui a tua imagem */
         body{
             margin:0;
-            font-family: Arial, sans-serif;
-            background:#0d0d0d;
-            color:white;
+            height:100vh;
             display:flex;
-            flex-direction:column;
+            justify-content:center;
             align-items:center;
+            background:#000 url("bg.png") repeat;
         }
 
-        header{
-            padding:20px;
-            text-align:center;
+        /* moldura exterior (cinza) */
+        .frame-outer{
+            padding:5px;
+            background:#52004a;
+            border-radius:6px;
         }
 
+
+
+        /* tamanho VISUAL do jogo */
         .game-wrapper{
-            width:1280px;
-            max-width:100%;
+            width:960px;              /* 75% do original */
             aspect-ratio:16/9;
-            border:3px solid #444;
             background:black;
+            overflow:hidden;
+            position:relative;
         }
 
-        iframe{
-            width:100%;
-            height:100%;
+        /* iframe mantém 1280x720 mas é escalado */
+        .game-wrapper iframe{
+            width:1280px;
+            height:720px;
             border:none;
+            transform: scale(0.75);    /* muda para 0.6 / 0.8 se quiseres */
+            transform-origin: top left;
         }
     </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Word Hunter</h1>
-    <p>Mini‑game — press play below 👇</p>
-</header>
-
-<div class="game-wrapper">
-    <iframe src="Web1WordHunter.html"></iframe>
+<div class="frame-outer">
+    <div class="frame-inner">
+        <div class="game-wrapper">
+            <iframe src="Web1WordHunter.html"></iframe>
+        </div>
+    </div>
 </div>
 
 </body>
