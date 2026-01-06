@@ -7007,15 +7007,17 @@ if (reversed == null) { reversed = false; }
 		    return (m < 10 ? "0"+m : m) + ":" + (s < 10 ? "0"+s : s);
 		}
 		
-		function carregarScoreboardBig() {
-		    console.log("===== CARREGAR SCOREBOARD BIG =====");
+		async function carregarScoreboardBig() {
+		    let lista = [];
 		
-		    let lista = JSON.parse(localStorage.getItem("resultados")) || [];
-		    console.log("Lista carregada:", lista);
-		    console.log("Total de registos:", lista.length);
+		    try {
+		        const r = await fetch("/api/scores");
+		        lista = await r.json();
+		    } catch(e) {
+		        lista = JSON.parse(localStorage.getItem("resultados")) || [];
+		    }
 		
 		    lista.sort((a, b) => b.score - a.score);
-		    console.log("Lista ordenada:", lista);
 		
 		    for (let i = 0; i < 7; i++) {
 		        let item = lista[i];
@@ -7023,31 +7025,25 @@ if (reversed == null) { reversed = false; }
 		        let nameField   = root.ScoreBoardBig["name"   + (i+1)];
 		        let scoreField  = root.ScoreBoardBig["score"  + (i+1)];
 		        let dateField   = root.ScoreBoardBig["date"   + (i+1)];
-		        let percentField= root.ScoreBoardBig["perc"+ (i+1)];
+		        let percentField= root.ScoreBoardBig["perc"   + (i+1)];
 		        let timeField   = root.ScoreBoardBig["time"   + (i+1)];
-		
-		        console.log(
-		            `Linha BIG ${i+1}:`,
-		            { nameField, scoreField, dateField, percentField, timeField, item }
-		        );
 		
 		        if (item) {
 		            nameField.text    = item.nome;
 		            scoreField.text   = item.score;
-		            dateField.text    = item.data;
+		            dateField.text    = new Date(item.data).toLocaleDateString();
 		            percentField.text = item.percent + "%";
 		            timeField.text    = formatTime(item.tempo);
 		        } else {
-		            nameField.text    = "---";
-		            scoreField.text   = "0";
-		            dateField.text    = "-";
+		            nameField.text = "---";
+		            scoreField.text = "0";
+		            dateField.text = "-";
 		            percentField.text = "-";
-		            timeField.text    = "-";
+		            timeField.text = "-";
 		        }
 		    }
-		
-		    console.log("ScoreBoard BIG atualizado!");
 		}
+		
 		carregarScoreboardBig();
 	}
 	this.frame_4 = function() {
@@ -7121,32 +7117,39 @@ if (reversed == null) { reversed = false; }
 		
 		    window.addEventListener("keydown", handleNameKey);
 		    
-		    popup.ok_btn.on("click", () => {
-				root.removeChild(popup);
-				window.removeEventListener("keydown", handleNameKey);
+		    popup.ok_btn.on("click", async () => {
+		    root.removeChild(popup);
+		    window.removeEventListener("keydown", handleNameKey);
 		
-				let percent = Math.round((data.certas / data.total) * 100);
+		    let percent = Math.round((data.certas / data.total) * 100);
 		
-				let record = {
-					nome: this.playerName,
-					score: data.score,
-					tempo: data.tempo,
-					percent: percent,
-					data: new Date().toLocaleDateString()
-				};
+		    let record = {
+		        nome: this.playerName,
+		        score: data.score,
+		        tempo: data.tempo,
+		        percent: percent,
+		        data: new Date().toISOString()
+		    };
 		
-				let stored = JSON.parse(localStorage.getItem("resultados")) || [];
-			
-				stored.push(record);
+		    try {
+		        await fetch("/api/scores", {
+		            method: "POST",
+		            headers: {"Content-Type": "application/json"},
+		            body: JSON.stringify(record)
+		        });
 		
-				stored.sort((a, b) => b.score - a.score);
+		        console.log("Score guardado no servidor!");
+		    } catch(e) {
+		        console.warn("Falha ao guardar no servidor — fallback local");
+		        let stored = JSON.parse(localStorage.getItem("resultados")) || [];
+		        stored.push(record);
+		        localStorage.setItem("resultados", JSON.stringify(stored));
+		    }
 		
-				localStorage.setItem("resultados", JSON.stringify(stored));
-				
-				carregarScoreboard();
-			
-				stageRef.gotoAndStop("menu");
-			});
+		    await carregarScoreboard();
+		    stageRef.gotoAndStop("menu");
+		});
+		
 		
 		    popup.back_btn.on("click", () => {
 		        root.removeChild(popup);
@@ -7175,32 +7178,23 @@ if (reversed == null) { reversed = false; }
 			});  
 		});
 		
-		function carregarScoreboard() {
+		async function carregarScoreboard() {
+		    let lista = [];
 		
-		    console.log("----- CARREGAR SCOREBOARD -----");
-		
-		    let lista = JSON.parse(localStorage.getItem("resultados")) || [];
-		
-		    console.log("Lista carregada do localStorage:", lista);
-		    console.log("Total de registos:", lista.length);
+		    try {
+		        const r = await fetch("/api/scores");
+		        lista = await r.json();
+		    } catch(e) {
+		        console.warn("Sem servidor — usar localStorage");
+		        lista = JSON.parse(localStorage.getItem("resultados")) || [];
+		    }
 		
 		    lista.sort((a, b) => b.score - a.score);
 		
-		    console.log("Lista ordenada:", lista);
-		
 		    for (let i = 0; i < 7; i++) {
-		
 		        let item = lista[i];
-		
 		        let nameField  = root.ScoreBoardSmall["name"  + (i+1)];
 		        let scoreField = root.ScoreBoardSmall["score" + (i+1)];
-		
-		        console.log(
-		            `Linha ${i+1}:`,
-		            "campoName=", nameField,
-		            "campoScore=", scoreField,
-		            "item=", item
-		        );
 		
 		        if (item) {
 		            nameField.text  = item.nome;
@@ -7210,9 +7204,8 @@ if (reversed == null) { reversed = false; }
 		            scoreField.text = "0";
 		        }
 		    }
-		
-		    console.log("Scoreboard atualizado!");
 		}
+		
 		
 		carregarScoreboard();
 	}
@@ -7857,23 +7850,23 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_36.png?1767731203826", id:"CachedBmp_36"},
-		{src:"images/CachedBmp_30.png?1767731203826", id:"CachedBmp_30"},
-		{src:"images/CachedBmp_20.png?1767731203826", id:"CachedBmp_20"},
-		{src:"images/Web1WordHunter_atlas_1.png?1767731203348", id:"Web1WordHunter_atlas_1"},
-		{src:"images/Web1WordHunter_atlas_2.png?1767731203348", id:"Web1WordHunter_atlas_2"},
-		{src:"images/Web1WordHunter_atlas_3.png?1767731203353", id:"Web1WordHunter_atlas_3"},
-		{src:"images/Web1WordHunter_atlas_4.png?1767731203353", id:"Web1WordHunter_atlas_4"},
-		{src:"images/Web1WordHunter_atlas_5.png?1767731203354", id:"Web1WordHunter_atlas_5"},
-		{src:"images/Web1WordHunter_atlas_6.png?1767731203355", id:"Web1WordHunter_atlas_6"},
-		{src:"images/Web1WordHunter_atlas_7.png?1767731203355", id:"Web1WordHunter_atlas_7"},
-		{src:"sounds/DialUpMP3.mp3?1767731203826", id:"DialUpMP3"},
-		{src:"sounds/FrogMP3.mp3?1767731203826", id:"FrogMP3"},
-		{src:"sounds/JingleBellMP3.mp3?1767731203826", id:"JingleBellMP3"},
-		{src:"sounds/LaughMP3.mp3?1767731203826", id:"LaughMP3"},
-		{src:"sounds/LibraryMP3.mp3?1767731203826", id:"LibraryMP3"},
-		{src:"sounds/OwlMP3.mp3?1767731203826", id:"OwlMP3"},
-		{src:"sounds/SitMP3.mp3?1767731203826", id:"SitMP3"}
+		{src:"images/CachedBmp_36.png?1767733334665", id:"CachedBmp_36"},
+		{src:"images/CachedBmp_30.png?1767733334665", id:"CachedBmp_30"},
+		{src:"images/CachedBmp_20.png?1767733334665", id:"CachedBmp_20"},
+		{src:"images/Web1WordHunter_atlas_1.png?1767733333662", id:"Web1WordHunter_atlas_1"},
+		{src:"images/Web1WordHunter_atlas_2.png?1767733333663", id:"Web1WordHunter_atlas_2"},
+		{src:"images/Web1WordHunter_atlas_3.png?1767733333674", id:"Web1WordHunter_atlas_3"},
+		{src:"images/Web1WordHunter_atlas_4.png?1767733333676", id:"Web1WordHunter_atlas_4"},
+		{src:"images/Web1WordHunter_atlas_5.png?1767733333678", id:"Web1WordHunter_atlas_5"},
+		{src:"images/Web1WordHunter_atlas_6.png?1767733333679", id:"Web1WordHunter_atlas_6"},
+		{src:"images/Web1WordHunter_atlas_7.png?1767733333680", id:"Web1WordHunter_atlas_7"},
+		{src:"sounds/DialUpMP3.mp3?1767733334665", id:"DialUpMP3"},
+		{src:"sounds/FrogMP3.mp3?1767733334665", id:"FrogMP3"},
+		{src:"sounds/JingleBellMP3.mp3?1767733334665", id:"JingleBellMP3"},
+		{src:"sounds/LaughMP3.mp3?1767733334665", id:"LaughMP3"},
+		{src:"sounds/LibraryMP3.mp3?1767733334665", id:"LibraryMP3"},
+		{src:"sounds/OwlMP3.mp3?1767733334665", id:"OwlMP3"},
+		{src:"sounds/SitMP3.mp3?1767733334665", id:"SitMP3"}
 	],
 	preloads: []
 };
