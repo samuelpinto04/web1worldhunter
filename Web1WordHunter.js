@@ -7011,7 +7011,7 @@ if (reversed == null) { reversed = false; }
 		    let lista = [];
 		
 		    try {
-		        const r = await fetch("/api/scores");
+		        const r = await fetch("/.netlify/functions/scores");
 		        lista = await r.json();
 		    } catch(e) {
 		        lista = JSON.parse(localStorage.getItem("resultados")) || [];
@@ -7182,7 +7182,7 @@ if (reversed == null) { reversed = false; }
 		    let lista = [];
 		
 		    try {
-		        const r = await fetch("/api/scores");
+		        const r = await fetch("/.netlify/functions/scores");
 		        lista = await r.json();
 		    } catch(e) {
 		        console.warn("Sem servidor — usar localStorage");
@@ -7850,23 +7850,23 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_36.png?1767733334665", id:"CachedBmp_36"},
-		{src:"images/CachedBmp_30.png?1767733334665", id:"CachedBmp_30"},
-		{src:"images/CachedBmp_20.png?1767733334665", id:"CachedBmp_20"},
-		{src:"images/Web1WordHunter_atlas_1.png?1767733333662", id:"Web1WordHunter_atlas_1"},
-		{src:"images/Web1WordHunter_atlas_2.png?1767733333663", id:"Web1WordHunter_atlas_2"},
-		{src:"images/Web1WordHunter_atlas_3.png?1767733333674", id:"Web1WordHunter_atlas_3"},
-		{src:"images/Web1WordHunter_atlas_4.png?1767733333676", id:"Web1WordHunter_atlas_4"},
-		{src:"images/Web1WordHunter_atlas_5.png?1767733333678", id:"Web1WordHunter_atlas_5"},
-		{src:"images/Web1WordHunter_atlas_6.png?1767733333679", id:"Web1WordHunter_atlas_6"},
-		{src:"images/Web1WordHunter_atlas_7.png?1767733333680", id:"Web1WordHunter_atlas_7"},
-		{src:"sounds/DialUpMP3.mp3?1767733334665", id:"DialUpMP3"},
-		{src:"sounds/FrogMP3.mp3?1767733334665", id:"FrogMP3"},
-		{src:"sounds/JingleBellMP3.mp3?1767733334665", id:"JingleBellMP3"},
-		{src:"sounds/LaughMP3.mp3?1767733334665", id:"LaughMP3"},
-		{src:"sounds/LibraryMP3.mp3?1767733334665", id:"LibraryMP3"},
-		{src:"sounds/OwlMP3.mp3?1767733334665", id:"OwlMP3"},
-		{src:"sounds/SitMP3.mp3?1767733334665", id:"SitMP3"}
+		{src:"images/CachedBmp_36.png?1767735704549", id:"CachedBmp_36"},
+		{src:"images/CachedBmp_30.png?1767735704549", id:"CachedBmp_30"},
+		{src:"images/CachedBmp_20.png?1767735704549", id:"CachedBmp_20"},
+		{src:"images/Web1WordHunter_atlas_1.png?1767735704210", id:"Web1WordHunter_atlas_1"},
+		{src:"images/Web1WordHunter_atlas_2.png?1767735704211", id:"Web1WordHunter_atlas_2"},
+		{src:"images/Web1WordHunter_atlas_3.png?1767735704213", id:"Web1WordHunter_atlas_3"},
+		{src:"images/Web1WordHunter_atlas_4.png?1767735704214", id:"Web1WordHunter_atlas_4"},
+		{src:"images/Web1WordHunter_atlas_5.png?1767735704214", id:"Web1WordHunter_atlas_5"},
+		{src:"images/Web1WordHunter_atlas_6.png?1767735704214", id:"Web1WordHunter_atlas_6"},
+		{src:"images/Web1WordHunter_atlas_7.png?1767735704215", id:"Web1WordHunter_atlas_7"},
+		{src:"sounds/DialUpMP3.mp3?1767735704549", id:"DialUpMP3"},
+		{src:"sounds/FrogMP3.mp3?1767735704549", id:"FrogMP3"},
+		{src:"sounds/JingleBellMP3.mp3?1767735704549", id:"JingleBellMP3"},
+		{src:"sounds/LaughMP3.mp3?1767735704549", id:"LaughMP3"},
+		{src:"sounds/LibraryMP3.mp3?1767735704549", id:"LibraryMP3"},
+		{src:"sounds/OwlMP3.mp3?1767735704549", id:"OwlMP3"},
+		{src:"sounds/SitMP3.mp3?1767735704549", id:"SitMP3"}
 	],
 	preloads: []
 };
